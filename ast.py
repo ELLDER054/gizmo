@@ -1,4 +1,4 @@
-ass AstNode(object):
+class AstNode(object):
     def toStr(self, prefix=""):
         s = "%s%s:" % (prefix, self.__class__.__name__)
         for prop in vars(self):
